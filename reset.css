@@ -1,0 +1,67 @@
+.text-massy {
+    color: #054C78;
+}
+
+.hero-title {
+    font-family: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.btn-primary {
+    color: #FFFEFE;
+    background-color: #054C78;
+    border-color: #054C78;
+}
+
+.btn-primary:hover {
+    color: #FFFEFE;
+    background-color: #0e78b9;
+    border-color: #0e78b9;
+}
+
+.blue-gradient-btn {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#054C78), to(#066eaf));
+    background-image: -o-linear-gradient(top, #054C78, #066eaf);
+    background-image: linear-gradient(to bottom, #054C78, #066eaf);
+    border: none;
+    border-radius: 0.625rem;
+    padding: 1rem 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-holder {
+        background-position: unset !important;
+    }
+}
+
+.card.service-card:before {
+    content: '';
+    position: absolute;
+    left: 8.625rem !important;
+    bottom: 8.625rem !important;
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #006CEA !important;
+    border-radius: 1.875rem 0 0.625rem 0;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.card.service-card:hover:before {
+    left: 11.125rem !important;
+    bottom: 12.8125rem !important;
+}
+
+.bg-blue {
+    background-color: #006CEA !important;
+}
+
+.footer-heading-color {
+    color: #ffffff !important;
+}
+
+.link-900 {
+    color: #ffffff !important;
+    font-weight: 200 !important;
+}
