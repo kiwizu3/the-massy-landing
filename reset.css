@@ -27,17 +27,11 @@
     padding: 1rem 2.5rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .bg-holder {
-        background-position: unset !important;
-    }
-}
-
 .card.service-card:before {
     content: '';
     position: absolute;
     left: 8.625rem !important;
-    bottom: 8.625rem !important;
+    bottom: 6.625rem !important;
     width: 6.25rem;
     height: 6.25rem;
     background-color: #006CEA !important;
@@ -51,6 +45,22 @@
 .card.service-card:hover:before {
     left: 11.125rem !important;
     bottom: 12.8125rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-holder {
+        background-position: unset !important;
+    }
+    .card.service-card:hover:before {
+        left: 16.125rem !important;
+        bottom: 9.8125rem !important;
+    }
+    .card.service-card:before {
+        content: '';
+        position: absolute;
+        left: 13.625rem !important;
+        bottom: 6.625rem !important;
+    }
 }
 
 .bg-blue {
